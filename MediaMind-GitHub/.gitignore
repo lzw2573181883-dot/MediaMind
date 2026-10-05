@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+
+# Distribute only the blank backend configuration file
+.env
+.env.*
+!/backend/.env
+
+# Dependencies and build outputs
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Runtime data: subtitles, vector database and exported documents
+data/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+
+# Editor files and local backups
+.DS_Store
+.idea/
+.vscode/
+*.bak
